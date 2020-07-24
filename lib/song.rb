@@ -3,14 +3,14 @@ class Song
   
   @@count = 0 
   @@genres = []
-  @@artist = []
+  @@artists = []
   
   def initalize(name, artist, genre)
     @name = name
     @artist = artist
     @genre = genre
     @@genres << @genre
-    @@artist << @artist
+    @@artists << @artist
     @@count += 1 
   end 
   
