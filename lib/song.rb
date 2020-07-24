@@ -3,7 +3,7 @@ class Song
   
   @@count = 0 
   
-  def initalize
+  def initalize(name)
     @@count += 1 
   end 
   
@@ -13,9 +13,18 @@ class Song
   
   @@genre = []
   
-  def initalize
+  def initalize(genre)
     if !@@genre.include?(genre)
       @@genre << genre
     end 
   end
+  
+  @@artist = []
+  
+  def initalize(artist)
+  
+  
+  end
+  
+  
 end
