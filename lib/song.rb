@@ -14,7 +14,7 @@ class Song
   @@genre = []
   
   def initalize
-    if !@@genre.include? != genre
+    if !@@genre.include?(genre)
       then
       @@genre << genre
   
