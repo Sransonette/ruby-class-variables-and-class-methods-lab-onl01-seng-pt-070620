@@ -32,9 +32,9 @@ class Song
       if new_genre_count[genre]
         new_genre_count += 1 
       else
-        new_genre_count = 1 
+        new_genre_count[genre] = 1 
       end
-      new_genre_count
+      new_genre_count[genre]
     end
   end
     
