@@ -22,7 +22,10 @@ class Song
   @@artist = []
   
   def initalize(artist)
-  
+    if !@@artist.include?(artist)
+      @@artist << artist
+    end 
+  end
   
   end
   
