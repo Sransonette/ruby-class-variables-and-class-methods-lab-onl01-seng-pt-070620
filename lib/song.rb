@@ -11,6 +11,9 @@ class Song
     @@count
   end
   
+  @@genre = []
   
+  def initalize
+    if 
   
 end
