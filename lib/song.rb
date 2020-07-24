@@ -2,6 +2,7 @@ class Song
   attr_accessor :name, :artist, :genre 
   
   @@count = 0 
+  @@genre = []
   
   def initalize(name)
     @@count += 1 
@@ -11,7 +12,7 @@ class Song
     @@count
   end
   
-  @@genre = []
+  
   
   def initalize(genre)
     if !@@genre.include?(genre)
