@@ -19,7 +19,10 @@ class Song
   end
   
   def self.
-    @@
+    @@genre.uniq 
+  end
+  
+  
   
   
   
