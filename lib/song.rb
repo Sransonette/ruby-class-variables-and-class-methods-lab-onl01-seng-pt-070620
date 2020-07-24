@@ -15,7 +15,6 @@ class Song
   
   def initalize
     if !@@genre.include?(genre)
-      then
       @@genre << genre
-  
+  end 
 end
